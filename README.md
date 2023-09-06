@@ -55,7 +55,25 @@ Open the jenkins using the inital admin password
 
 sudo usermod -aG docker jenkins
 
-Step 5: Creating a Declarative Pipeline
+Step 5: Creating a Declarative Pipeline and enable the GitHub hook trigger for GITScm polling on Build triggers sections
+
+Note: Do not forget to create a webhook on Github repository 
+
+![Alt text](image-2.png)
+
+- Before running the job install Docker compose on Jenkins machine by using the below commands
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version
+
+Step 6 : Run the Jenkins job
+
+![Alt text](image-3.png)
+
+The job will executed succesfully then I have made some changes on the code and pushed into the repository the job will start automatically.
 
 
 
