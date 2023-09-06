@@ -28,7 +28,7 @@ Before we dive in, make sure you have the following prerequisites in place:
 Let's start by cloning the repository containing the source code for our two-tier application. Open your terminal and execute the following commands:
 
 ```plaintext
-git clone https://github.com/sumanprasad007/two-tier-flask-app.git
+git clone https://github.com/sanjaybaskar/django-notes-app.git
 
 cd two-tier-architecture-flask-application-with-mysql-database
 ```
@@ -126,19 +126,4 @@ Replace `PUBLIC_IP_OF_SERVER` with the actual public IP address of your server. 
 ## **Conclusion 🎉**
 
 Congratulations! You've successfully hosted a two-tier Flask application with a MySQL database using Docker Compose. 🎈 This architecture gives you the power to manage your application components as isolated containers, ensuring scalability and maintainability. Remember, this tutorial provides a basic setup. In a production environment, consider additional factors like security, data backup, and container orchestration.
-
-Feel free to explore and modify the source code to build more advanced features on top of this foundation. Happy coding! 💻🌟
-
-### **🔍 Checkout GitHub Repository for projects:**
-
-**🔗** [**github.com/sumanprasad007**](http://github.com/sumanprasad007)
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690656559825/0474ff76-1d75-4ce0-93ea-1194d2444f74.png?auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp align="left")
-
-### **🔍 Check out my YouTube channel - Prasad Suman Mohan:**
-
-🔗 [**youtube.com/@sumanprasad007**](http://youtube.com/@sumanprasad007)
-
-[![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690893614276/e567a0e4-c76d-4f49-b537-34ca8e727e5d.png?auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp&auto=compress,format&format=webp align="left")](https://www.youtube.com/@sumanprasad007)
-
 
